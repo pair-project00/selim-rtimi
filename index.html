@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeGa PC</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo.png">
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+     <header>
+     <h1>MeGa PC</h1>
+      <nav>
+     <ul>
+   <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+   <li><a href="#contact">Contact Us</a></li>
+  </ul>
+ </nav>
+ </header>
+ <main>
+ <div class="welcoming">
+     <h2>Welcome to Mega PC</h2>
+     <p>Find the perfect pc ever!</p>
+     <h3>OUR PRODUCT</h3>
+     <p id="pub1" >BEST PRICE</p>
+     <p id="pub2" >BEST STORE</p>
+ </div>
+ 
+ <main>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</main>
+<div class="products">
+     <input type="text" id="search-bar" placeholder="Search for PCs..." onkeyup="filterProducts()">
+ <div class="product-list" id="product-list">
+  </div>
+ </div> 
+ </main>
+
+<footer>
+<p>&copy; 2024 PC Shop. All rights reserved.</p>
+ </footer>
+ <script src="index.js"></script>
+</body>
+</html>
